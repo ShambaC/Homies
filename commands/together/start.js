@@ -52,7 +52,7 @@ module.exports = {
                     return message.channel.send(`${invite.code}`);
                 })
                 break;
-            case 'letter tile':
+            case 'letter league':
                 client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'lettertile').then(async invite => {
                     message.channel.send('One person click on the blue link or play button to start and then others join : ');
                     return message.channel.send(`${invite.code}`);

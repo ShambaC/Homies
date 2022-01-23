@@ -15,7 +15,7 @@ module.exports = {
         {
             embed.setColor('RED');
             embed.setAuthor('ACTIVITY HELP PANEL');
-            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington❌\n💠Letter Tile\n💠Words Snack\n💠SpellCasr\n💠Awkword❌\n💠Puttparty❌\n💠Sketch Heads❌`);
+            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington\n💠Letter League\n💠Words Snack\n💠SpellCast\n💠Awkword❌\n💠Puttparty❌\n💠Sketch Heads❌`);
             embed.setTimestamp();
             embed.setFooter('Made with heart by ShambaC ❤️', message.author.avatarURL({ dynamic: true }));
 
@@ -50,8 +50,8 @@ module.exports = {
             case 'fishington':
                 embed.setDescription(`Dunno what this is 🤷‍♂️`);
                 break;
-            case 'letter tile':
-                embed.setDescription(`Letter Tile is a game where you and your friends take turns placing letters on a shared game board to create words in a crossword-style. Spelling longer words and placing letters on special spaces earn players more points, so get your dictionaries and thesauri ready!`);
+            case 'letter league':
+                embed.setDescription(`Letter League is a game where you and your friends take turns placing letters on a shared game board to create words in a crossword-style. Spelling longer words and placing letters on special spaces earn players more points, so get your dictionaries and thesauri ready!`);
                 break;
             case 'words snack':
                 embed.setDescription(`Word Snacks is a multiplayer word search game, where you and your friends try to find and make as many words as possible from a few letters. The more words you can spell before your friends, the higher your score!`);

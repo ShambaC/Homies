@@ -41,8 +41,8 @@ The Following games and activites are available :
 - 💠Chess
 - 💠Checkers
 - 💠Betrayal
-- 💠Fishington❌
-- 💠Letter Tile
+- 💠Fishington
+- 💠Letter League
 - 💠Words Snack
 - 💠Doodle Crew❌(removed from discord)
 - 💠SpellCasr
