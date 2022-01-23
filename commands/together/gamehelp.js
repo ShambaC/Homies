@@ -15,7 +15,7 @@ module.exports = {
         {
             embed.setColor('RED');
             embed.setAuthor('ACTIVITY HELP PANEL');
-            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington❌\n💠Letter Tile\n💠Words Snack\n💠SpellCasr\n💠Awkword❌\n💠Puttparty❌\n💠Sketch Heads`);
+            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington❌\n💠Letter Tile\n💠Words Snack\n💠SpellCasr\n💠Awkword❌\n💠Puttparty❌\n💠Sketch Heads❌`);
             embed.setTimestamp();
             embed.setFooter('Made with heart by ShambaC ❤️', message.author.avatarURL({ dynamic: true }));
 

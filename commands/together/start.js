@@ -82,11 +82,14 @@ module.exports = {
                     return message.channel.send(`${invite.code}`);
                 })
                 break;
-            case 'sketch heads':
+            /*case 'sketch heads':
                 client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'sketchheads').then(async invite => {
                     message.channel.send('One person click on the blue link or play button to start and then others join : ');
                     return message.channel.send(`${invite.code}`);
                 })
+                break;*/
+            case 'doodle crew':                
+                return message.channel.send('Doodle Crew is no longer available in discord. It has been replaced Sketch Heads. That will be soon made available to the BOT.');
                 break;
             default:
                 return message.channel.send(`No such activity found ! ❌`)
