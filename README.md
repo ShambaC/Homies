@@ -44,10 +44,11 @@ The Following games and activites are available :
 - 💠Fishington❌
 - 💠Letter Tile
 - 💠Words Snack
-- 💠Doodle Crew
+- 💠Doodle Crew❌(removed from discord)
 - 💠SpellCasr
 - 💠Awkword❌
 - 💠Puttparty❌
+- 💠Sketch Heads(not yet implemented)
 
 Run the command `gamehelp` in discord to get this list.
 
