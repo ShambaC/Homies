@@ -64,12 +64,6 @@ module.exports = {
                     return message.channel.send(`${invite.code}`);
                 })
                 break;
-            case 'doodle crew':
-                client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'doodlecrew').then(async invite => {
-                    message.channel.send('One person click on the blue link or play button to start and then others join : ');
-                    return message.channel.send(`${invite.code}`);
-                })
-                break;
             case 'spellcast':
                 client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'spellcast').then(async invite => {
                     message.channel.send('One person click on the blue link or play button to start and then others join : ');
@@ -84,6 +78,12 @@ module.exports = {
                 break;
             case 'puttparty':
                 client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'puttparty').then(async invite => {
+                    message.channel.send('One person click on the blue link or play button to start and then others join : ');
+                    return message.channel.send(`${invite.code}`);
+                })
+                break;
+            case 'sketch heads':
+                client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'sketchheads').then(async invite => {
                     message.channel.send('One person click on the blue link or play button to start and then others join : ');
                     return message.channel.send(`${invite.code}`);
                 })

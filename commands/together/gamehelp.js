@@ -15,7 +15,7 @@ module.exports = {
         {
             embed.setColor('RED');
             embed.setAuthor('ACTIVITY HELP PANEL');
-            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington❌\n💠Letter Tile\n💠Words Snack\n💠Doodle Crew\n💠SpellCasr\n💠Awkword❌\n💠Puttparty❌`);
+            embed.setDescription(`Type +gamehelp [activity name] to know more about it.\nType +start [activity name] to start an activity\n**Here's a list of available activities : **\n💠YouTube\n💠Poker\n💠Chess\n💠Checkers\n💠Betrayal\n💠Fishington❌\n💠Letter Tile\n💠Words Snack\n💠SpellCasr\n💠Awkword❌\n💠Puttparty❌\n💠Sketch Heads`);
             embed.setTimestamp();
             embed.setFooter('Made with heart by ShambaC ❤️', message.author.avatarURL({ dynamic: true }));
 
@@ -56,9 +56,6 @@ module.exports = {
             case 'words snack':
                 embed.setDescription(`Word Snacks is a multiplayer word search game, where you and your friends try to find and make as many words as possible from a few letters. The more words you can spell before your friends, the higher your score!`);
                 break;
-            case 'doodle crew':
-                embed.setDescription(`In Doodle Crew, one player sketches an image as a clue for other players to guess what the secret word is. Guessing quickly earns more points!`);
-                break;
             case 'spellcast':
                 embed.setDescription(`SpellCast is a multiplayer word game where each player takes turns attempting to find words in sequences of adjacent letters. Certain letters will allow for more points, and some letters have special gems. `);
                 break;
@@ -67,6 +64,9 @@ module.exports = {
                 break;
             case 'puttparty':
                 embed.setDescription(`Dunno what this is 🤷‍♂️`);
+                break;
+            case 'sketch heads':
+                embed.setDescription(`This replaces Doodle Crew. In Sketch Heads in Classic Mode one player sketches an image as a clue for other players to guess what the secret word is. Guessing quickly earns more points!\nIn Blitz Mode of Sketch Heads there are multiple drawers and guessers, drawers sketch the image as quickly as they can so the guessers can guess as many words as possible in the allotted time. `);
                 break;
             default:
                 embed.setDescription(`No such activity found ! ❌`);
