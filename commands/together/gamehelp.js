@@ -68,6 +68,9 @@ module.exports = {
             case 'sketch heads':
                 embed.setDescription(`This replaces Doodle Crew. In Sketch Heads in Classic Mode one player sketches an image as a clue for other players to guess what the secret word is. Guessing quickly earns more points!\nIn Blitz Mode of Sketch Heads there are multiple drawers and guessers, drawers sketch the image as quickly as they can so the guessers can guess as many words as possible in the allotted time. `);
                 break;
+            case 'ocho':
+                embed.setDescription(`Ocho is an Activity that we've developed here at Discord. It is our Crazy Eights-inspired card game that you can play with your friends! The rules are simple — on your turn, discard a card from your hand with the same suit or number as the previous card. The first person to discard all their cards wins. Special cards are available along the way to add more excitement to the game.`);
+                break;
             default:
                 embed.setDescription(`No such activity found ! ❌`);
             }
