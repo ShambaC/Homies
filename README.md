@@ -6,6 +6,11 @@ Invite this bot to your server [here](https://discord.com/api/oauth2/authorize?c
 
 ### Screenshots
 
+![image](https://user-images.githubusercontent.com/38806897/152747935-bc7502a6-2a14-475f-bf35-471e1dea4c8d.png)
+![image](https://user-images.githubusercontent.com/38806897/152748036-67c0d58e-3cb9-46ec-826a-861ec548bc9a.png)
+![image](https://user-images.githubusercontent.com/38806897/152748067-12f2c614-803d-45f8-a2d2-cd62f0eb5e18.png)
+![image](https://user-images.githubusercontent.com/38806897/152748150-caa32c89-1be5-4e5f-9ad2-17acfcb7c4eb.png)
+
 
 ### Configuration
 
